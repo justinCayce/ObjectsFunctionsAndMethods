@@ -134,12 +134,12 @@ def turtle4():
 def turtle5():
 
     emma = rg.SimpleTurtle('triangle')
-    emma.pen = rg.Pen('firebrick')
+    emma.pen = rg.Pen('firebrick', 5)
 
     emma.backward(250)
 
     phyllis = rg.SimpleTurtle('triangle')
-    phyllis.pen = rg.Pen('violet')
+    phyllis.pen = rg.Pen('violet', 5)
 
     phyllis.right(90)
 
