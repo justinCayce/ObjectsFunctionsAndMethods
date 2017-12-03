@@ -34,10 +34,12 @@ def main():
     window = rg.TurtleWindow()
 
     turtle1()
+    turtle5()
     turtle4()
     turtle3()
     turtle2()
     turtle2()
+
 
     window.close_on_mouse_click()
 
@@ -121,13 +123,28 @@ def turtle4():
     ted.draw_regular_polygon(5, 30)
     ted.end_fill()
 
-    ted. right(30)
+    ted.right(30)
 
     ted.begin_fill()
     ted.draw_regular_polygon(3, 20)
     ted.end_fill()
 
     ted.backward(300)
+
+def turtle5():
+
+    emma = rg.SimpleTurtle('triangle')
+    emma.pen = rg.Pen('firebrick')
+
+    emma.backward(250)
+
+    phyllis = rg.SimpleTurtle('triangle')
+    phyllis.pen = rg.Pen('violet')
+
+    phyllis.right(90)
+
+    phyllis.forward(200)
+
 
 ########################################################################
 #
@@ -208,6 +225,7 @@ def turtle4():
 ########################################################################
 
 ########################################################################
+#
 #
 # TODO: 5.
 #   The previous two TODOs IMPLEMENTED a function (TO DO 3)
