@@ -34,10 +34,10 @@ def main():
     window = rg.TurtleWindow()
 
     turtle1()
+    turtle4()
     turtle3()
     turtle2()
     turtle2()
-    turtle4()
 
     window.close_on_mouse_click()
 
@@ -107,7 +107,10 @@ def turtle3():
 def turtle4():
     """
     Constructs a SimpleTurtle turtle.
-    Makes that SimpleTurtle do various tasks.
+    Makes that turle do draw a line that
+    culminates in a pentagon. Next the turtle
+    constructs a triangle and moves
+    backward some distance.
     """
     ted = rg.SimpleTurtle('turtle')
     ted.pen = rg.Pen('bisque3', 5)
@@ -190,7 +193,7 @@ def turtle4():
 
 ########################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a line to   main   that CALLS your new function immediately
 #   AFTER  main  calls turtle1.  So:
 #     -- the SimpleTurtle from turtle1 should move,
